@@ -1,0 +1,67 @@
+@font-face {
+    font-family: benton;
+    src: url(bold.otf);
+}
+body {
+    background-color: rgb(255, 128, 0);
+    font-family: benton;
+    font-size: 130px;
+    color: white;
+}
+#logo {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 170px;
+}
+.element {
+    font-family: myFirstFont;
+    font-family: benton;
+}
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+#divK {
+    text-align: right;
+    /* margin-right: 450px; */
+    /* margin-top: 470px; */
+    position: fixed;
+    top: 40%;
+    right: 20%;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
